@@ -12,4 +12,10 @@ export default defineNuxtConfig({
         'element-plus/theme-chalk/dark/css-vars.css',
         '~/assets/style/base.css',
     ],
+
+    eslint: {
+        config: {
+            stylistic: true,
+        },
+    },
 })

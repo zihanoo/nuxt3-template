@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare",
     "test": "vitest",
     "fix": "eslint ./ --fix",
-    "lint:eslint": "eslint ./**/*.{js,jsx,ts,tsx,vue} --cache --fix",
+    "lint:eslint": "eslint --cache --fix",
     "lint:style": "stylelint ./**/*.{css,scss,vue} --cache --fix"
   },
   "dependencies": {

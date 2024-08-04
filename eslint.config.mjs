@@ -9,6 +9,7 @@ export default withNuxt(
     ...pluginVue.configs['flat/recommended'],
 
     {
+        files: ['**/*.{js,cjs,mjs,ts,vue}'],
         rules: {
             'no-console': ['warn', {
                 allow: ['info', 'warn', 'error'],
@@ -26,14 +27,12 @@ export default withNuxt(
             '@stylistic/indent':                  ['warn', 4],
             '@stylistic/indent-binary-ops':       ['warn', 4],
             // 最大连续空行数
-            '@stylistic/no-multiple-empty-lines': ['warn', {
-                max: 2,
-            }],
+            '@stylistic/no-multiple-empty-lines': ['warn', { max: 2 }],
             '@stylistic/comma-dangle':            'warn',
             '@stylistic/quotes':                  'warn',
 
             // 大括号式，stroustrup是一种比较清晰的段落，例如比较清晰观察到if与else的开始和逻辑块
-            '@stylistic/brace-style':          ['warn', 'stroustrup', {
+            '@stylistic/brace-style': ['warn', 'stroustrup', {
                 allowSingleLine: true,
             }],
             // '@stylistic/object-curly-newline': ['warn', { multiline: true }],
@@ -46,7 +45,7 @@ export default withNuxt(
             }],
             // 无多重空格，配合key-spacing一起设置
             // https://eslint.style/rules/js/no-multi-spaces
-            '@stylistic/no-multi-spaces':      ['warn', {
+            '@stylistic/no-multi-spaces': ['warn', {
                 exceptions: {
                     VariableDeclarator: true,
                     ImportDeclaration:  true, // 目前是失效的
@@ -83,5 +82,12 @@ export default withNuxt(
                 multiline: 'never',
             }],
         },
+    },
+
+    {
+        ignores: [
+            'node_modules',
+            '**/.*',
+        ],
     },
 )

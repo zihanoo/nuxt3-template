@@ -10,6 +10,9 @@ export default {
         'stylelint-config-rational-order',
         '@stylistic/stylelint-config',
     ],
+    files: [
+        ['**/*.css', '**/*.scss', '**/*.vue'],
+    ],
     rules: {
         // 'prettier/prettier': true,
         'selector-id-pattern': [
@@ -60,4 +63,16 @@ export default {
     // https://stylelint.io/user-guide/configure#defaultseverity
     // 默认提示严重性设置
     defaultSeverity: 'warning',
+
+    ignoreFiles: [
+        'node_modules',
+        '**/.*',
+        '**/*.js',
+        '**/*.jsx',
+        '**/*.tsx',
+        '**/*.ts',
+        '**/*.json',
+        '**/*.md',
+        '**/*.yaml',
+    ],
 }
