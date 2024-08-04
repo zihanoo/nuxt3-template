@@ -1,0 +1,48 @@
+{
+  "name": "nuxt3-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "fix": "eslint ./ --fix",
+    "lint:eslint": "eslint ./**/*.{js,jsx,ts,tsx,vue} --cache --fix",
+    "lint:style": "stylelint ./**/*.{css,scss,vue} --cache --fix"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "nuxt": "^3.12.4",
+    "vue": "^3.4.34"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.9",
+    "@nuxt/eslint": "^0.4.0",
+    "@nuxt/eslint-config": "^0.4.0",
+    "@nuxt/test-utils": "^3.14.0",
+    "@stylistic/eslint-plugin": "^2.6.1",
+    "@stylistic/stylelint-config": "^2.0.0",
+    "@stylistic/stylelint-plugin": "^3.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "element-plus": "^2.7.8",
+    "eslint": "^9.8.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "happy-dom": "^14.12.3",
+    "playwright-core": "^1.45.3",
+    "sass": "^1.77.8",
+    "stylelint": "^16.8.1",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-scss": "^6.4.1",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^2.0.5",
+    "vue-tsc": "^2.0.29"
+  }
+}

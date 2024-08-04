@@ -1,0 +1,16 @@
+{
+    "eslint.enable": true,
+    "stylelint.enable": true,
+    "eslint.useFlatConfig": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.stylelint": "explicit"
+    },
+    // "stylelint.validate":[
+    //     "css",
+    //     "postcss",
+    //     "sass",
+    //     "scss",
+    //     "vue"
+    // ]
+}
