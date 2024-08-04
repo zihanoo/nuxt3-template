@@ -57,7 +57,7 @@ export default {
         'order/properties-order': [],
         'plugin/rational-order':  [true, { 'empty-line-between-groups': true }],
 
-        '@stylistic/indentation':     4,
+        '@stylistic/indentation': 4,
     },
 
     // https://stylelint.io/user-guide/configure#defaultseverity
