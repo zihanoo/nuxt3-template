@@ -12,7 +12,7 @@ const router = useRouter()
 </script>
 
 <style lang="scss" scoped>
-.mid-back { margin: auto; }
+.mid-back { margin: auto; display: inline-block; }
 .demo-region {
     width: 100%;
 }
