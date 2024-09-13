@@ -1,6 +1,6 @@
 # About
 
-Nuxt3 + Typescript + Element-plus + ESlint + Stylistic + Stylelint + Vite + Vitest + Sass
+Nuxt3 (Typescript + Vue3) + Element-plus + ESlint + Stylistic + Stylelint + Vite + Vitest + Sass
 
 # Nuxt 3 Minimal Starter
 
@@ -77,3 +77,17 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+# Nuxt Mongoose
+
+> Minimal project of [Nuxt Mongoose](https://github.com/arashsheyda/nuxt-mongoose)
+
+for more information see [Nuxt Mongoose](https://nuxt-mongoose.nuxt.space)
+
+
+## Node run
+```bash
+NITRO_PORT=4000 node .output/server/index.mjs
+NITRO_PORT=4000 HOST=127.0.0.1 node .output/server/index.mjs
+```

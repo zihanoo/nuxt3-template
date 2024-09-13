@@ -35,9 +35,9 @@ export default withNuxt(
             '@stylistic/brace-style': ['warn', 'stroustrup', {
                 allowSingleLine: true,
             }],
-            // '@stylistic/object-curly-newline': ['warn', { multiline: true }],
-
-            '@stylistic/object-curly-newline': ['warn', {
+            // '@stylistic/padded-blocks':        'off',
+            '@stylistic/max-statements-per-line': ['error', { max: 2 }],
+            '@stylistic/object-curly-newline':    ['warn', {
                 // ObjectExpression:  null,
                 ObjectPattern:     { multiline: true },
                 ImportDeclaration: 'never',
