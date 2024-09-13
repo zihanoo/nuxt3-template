@@ -1,4 +1,4 @@
-import type { AsyncData, AsyncDataOptions, NuxtError } from 'nuxt/app'
+import type { AsyncData, AsyncDataOptions, NuxtError } from '#app'
 /**
  * ssr异步数据增强版
  *
