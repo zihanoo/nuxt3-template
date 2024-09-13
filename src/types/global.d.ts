@@ -1,3 +1,3 @@
-interface AnyObject { [key: string]: unknown }
+interface AnyObject { [key: string | number | symbol]: unknown }
 
-declare module 'eslint-plugin-vue';
+declare module 'eslint-plugin-vue'
